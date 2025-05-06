@@ -19,7 +19,7 @@ echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
 echo -e "\e[1m\e[32m Güncellemeler ve Bütün Gereksinimler Yükleniyor. Bitene kadar Bekleyin.. \e[0m"  && sleep 2
 
-sudo apt update && sudo apt install make gcc ocl-icd-opencl-dev nano tmux ocl-icd-libopencl1 libleveldb-dev libopencl-clang-dev libgomp1 curl git tar wget build-essential -y && sudo apt install wget -y && cd $HOME
+sudo apt update && sudo apt install make gcc ocl-icd-opencl-dev nano tmux ocl-icd-libopencl1 libleveldb-dev libopencl-clang-dev libgomp1 curl git tar wget build-essential jq -y && sudo apt install wget -y && cd $HOME
 curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh
 curl -s https://install.aztec.network | bash
 export PATH="/root/.aztec/bin:$PATH"
