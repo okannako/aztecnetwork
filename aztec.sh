@@ -22,16 +22,17 @@ echo -e "\e[1m\e[32m Güncellemeler ve Bütün Gereksinimler Yükleniyor. Bitene
 sudo apt update && sudo apt install make gcc ocl-icd-opencl-dev nano tmux ocl-icd-libopencl1 libleveldb-dev libopencl-clang-dev libgomp1 curl git tar wget build-essential -y && sudo apt install wget -y && cd $HOME
 curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh
 curl -s https://install.aztec.network | bash
+export PATH="/root/.aztec/bin:$PATH"
 aztec
 aztec-up alpha-testnet
 
 echo -e "\e[1m\e[32m Node Başlatmak için Atamaları Yapın.. \e[0m"  && sleep 2
 
-echo -n "RPC_URL Girin: " RPC
-echo -n "BEACON_URL Girin: " BEACON
-echo -n "Cüzdan Private Key Girn: " Priv
-echo -n "Cüzdan Adresi Girin: " Adres
-echo -n "Sunucu IP Girin: " IP
+read -p "RPC_URL Girin: " RPC
+read -p "BEACON_URL Girin: " BEACON
+read -p "Cüzdan Private Key Girn: " Priv
+read -p "Cüzdan Adresi Girin: " Adres
+read -p "Sunucu IP Girin: " IP
 
 
 echo -e "\e[1m\e[32m Node Başlatılıyor.. \e[0m"  && sleep 2
