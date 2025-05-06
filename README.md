@@ -33,7 +33,7 @@
 ```
 apt install tmux
 tmux
-wget -q -O https://github.com/okannako/aztecnetwork/blob/main/aztec.sh chmod +x aztec.sh && sudo /bin/bash aztec.sh
+wget -q -O aztec.sh https://raw.githubusercontent.com/okannako/aztecnetwork/refs/heads/main/aztec.sh chmod +x aztec.sh && sudo /bin/bash aztec.sh
 ```
 
 6-) Tmux ile oluşturduğumuz ekranda node başladıktan sonra bir süre sisteme eşitlenmesi için bekliyoruz. Ve bu tmux ekranında çıkmak için ```ctrl+b``` sonra ```d```'ye basarak ekrandan çıkıyoruz.                                                                                                        
