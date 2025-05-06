@@ -31,6 +31,7 @@
 5-) Aşağıdaki kodlarla hazırladığım scriptle kurulumu başlattığımzıda bir süre yüklemeleri yapacak ve daha sonra gerekli ekleri sizden isteyecek. Yukarıda kaydettiğimiz bilgileri isteklerine göre girerek node'u başlatmasını sağlıyoruz.
 
 ```
+apt install tmux
 tmux
 wget -q -O https://raw.githubusercontent.com/okannako/aztecnetwork/refs/heads/main/aztec.sh chmod +x aztec.sh && sudo /bin/bash aztec.sh
 ```
