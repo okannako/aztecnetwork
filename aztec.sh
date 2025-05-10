@@ -15,6 +15,8 @@ echo -e '\e[36mYoutube :\e[39m' https://www.youtube.com/@CryptoChainNakoTurk
 echo -e "\e[0m"
 sleep 5
 
+cd /root/
+
 echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
 echo -e "\e[1m\e[32m Güncellemeler ve Bütün Gereksinimler Yükleniyor. Bitene kadar Bekleyin.. \e[0m"  && sleep 2
@@ -43,7 +45,7 @@ aztec start --node --archiver --sequencer \
   --l1-consensus-host-urls $BEACON \
   --sequencer.validatorPrivateKey $Priv \
   --sequencer.coinbase $Adres \
-  --p2p.p2pIp $IP
+  --p2p.p2pIp $IP \
   --p2p.maxTxPoolSize 1000000000
 
 
