@@ -72,7 +72,7 @@ aztec add-l1-validator \
 10-) İşlemler bu kadardı bunula alakalı videoyu ve duyuru Telegram kanalımın linkini aşağıya bırakıyorum.
 
 - Aztec Node Kurulum Videosu >> https://youtu.be/9nkYSqdkLZs
-- TelegranM Duyuru Kanalım >> https://t.me/nakoturkduyuru
+- Telegram Duyuru Kanalım >> https://t.me/nakoturkduyuru
 
 
 
