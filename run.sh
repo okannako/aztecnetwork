@@ -4,5 +4,5 @@ aztec start --node --archiver --sequencer \
   --l1-consensus-host-urls $BEACON \
   --sequencer.validatorPrivateKey $Priv \
   --sequencer.coinbase $Adres \
-  --p2p.p2pIp $IP
+  --p2p.p2pIp $IP \
   --p2p.maxTxPoolSize 1000000000
