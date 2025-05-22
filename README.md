@@ -76,7 +76,7 @@ aztec add-l1-validator \
 
 ## 22 Mayıs Güncellemesi
 
-- Aşağıdaki kodu girdiğniizde güncellemeyi yapıp node tekrar başlatılacak. Ancak öncesinde ``ctrl+c`` yaparak çalışan node durdurun.
+- Aşağıdaki kodu girdiğinizde güncellemeyi yapıp node tekrar başlatılacak. Ancak öncesinde ``ctrl+c`` yaparak çalışan node durdurun.
 ```
 wget -q -O update.sh https://raw.githubusercontent.com/okannako/aztecnetwork/refs/heads/main/update.sh && chmod +x update.sh && sudo /bin/bash update.sh
 ```
