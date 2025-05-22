@@ -21,6 +21,7 @@ echo -e "\e[1m\e[32m 22 Mayıs Güncellemesi Yükleniyor \e[0m"  && sleep 2
 export PATH="/root/.aztec/bin:$PATH"
 aztec-up alpha-testnet
 aztec
+rm -rf /root/.aztec/alpha-testnet/data
 
 echo -e "\e[1m\e[32m Node Başlatılıyor.. \e[0m"  && sleep 2
 
