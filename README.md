@@ -74,5 +74,12 @@ aztec add-l1-validator \
 - Aztec Node Kurulum Videosu >> https://youtu.be/9nkYSqdkLZs
 - Telegram Duyuru Kanalım >> https://t.me/nakoturkduyuru
 
+## 22 Mayıs Güncellemesi
+
+- Aşağıdaki kodu girdiğniizde güncellemeyi yapıp node tekrar başlatılacak. Ancak öncesinde ``ctrl+c`` yaparak çalışan node durdurun.
+```
+wget -q -O update.sh https://raw.githubusercontent.com/okannako/aztecnetwork/refs/heads/main/update.sh && chmod +x update.sh && sudo /bin/bash update.sh
+```
+
 
 
